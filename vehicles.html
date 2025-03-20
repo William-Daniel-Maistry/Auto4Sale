@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- Character Encoding (Ensure proper text rendering) -->
+
+        <!-- Favicon (Ensure both formats for maximum compatibility and visual quality) -->
+        <!-- Favicon in .ico format for older browsers like Internet Explorer -->
+        <link rel="icon" href="images/favicon--ico.ico" type="image/x-icon">
+
+        <!-- Favicon in .png format for modern browsers with transparency support -->
+        <link rel="icon" href="images/favicon--png.png" type="image/png">
+
+        <!-- Viewport Meta Tag (For responsive design on mobile devices) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title Tag (Displayed in the browser tab and used for SEO) -->
+        <title>Vehicles | Auto4Sale</title>
+
+        <!-- SEO Meta Tags -->
+        <meta name="description"
+            content="Browse through a wide selection of new and pre-owned vehicles at Auto4Sale. Find your perfect car today in our vehicle listings!">
+        <meta name="keywords"
+            content="Auto4Sale, car dealership, vehicles for sale, new cars, used cars, cars for sale in South Africa, car listings">
+        <meta name="author" content="William Daniel Maistry">
+
+        <!-- Robots Meta Tag (Tells search engines to index and follow links) -->
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph Meta Tags (For social media sharing like Facebook, LinkedIn, etc.) -->
+        <meta property="og:title"
+            content="Auto4Sale - Browse Our Vehicle Listings">
+        <meta property="og:type" content="website">
+        <!-- TODO: Add actual URL of the vehicle listing page -->
+        <meta property="og:url" content="https://www.auto4sale.com/vehicles">
+        <!-- TODO: Add actual image URL for the Open Graph image -->
+        <meta property="og:image"
+            content="images/auto4sale-vehicle-listing-meta.jpg">
+        <meta property="og:description"
+            content="Browse through a wide selection of new and pre-owned vehicles at Auto4Sale. Find your perfect car today in our vehicle listings!">
+        <meta property="og:site_name" content="Auto4Sale">
+        <meta property="og:locale" content="en_ZA">
+
+        <!-- Twitter Meta Tags (For Twitter card display) -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title"
+            content="Auto4Sale - Browse Our Vehicle Listings">
+        <meta name="twitter:description"
+            content="Browse through a wide selection of new and pre-owned vehicles at Auto4Sale. Find your perfect car today in our vehicle listings!">
+        <!-- TODO: Add actual image URL for the Twitter image -->
+        <meta name="twitter:image"
+            content="images/auto4sale-vehicle-listing-meta.jpg">
+
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome (For adding icons) -->
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <a href="index.html" title="Back" class="back">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <section class="header_logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Logo" title="Home"
+                        width="100">
+                </a>
+                <h1>Auto4Sale</h1>
+            </section>
+            <section class="header_tabs">
+                <a href="vehicles.html">Vehicles</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </section>
+        </header>
+
+        <!-- Main content -->
+        <main id="main__vehicles">
+
+            <!-- <input type="radio" id="all"> -->
+            <input type="checkbox" id="hatchback" class="filter">
+            <input type="checkbox" id="sedan" class="filter">
+            <input type="checkbox" id="suv" class="filter">
+            <input type="checkbox" id="sav" class="filter">
+            <input type="checkbox" id="pickup-truck" class="filter">
+            <input type="checkbox" id="coupe" class="filter">
+
+            <input type="checkbox" id="audi" class="filter">
+            <input type="checkbox" id="bmw" class="filter">
+            <input type="checkbox" id="ford" class="filter">
+            <input type="checkbox" id="hyundai" class="filter">
+            <input type="checkbox" id="mercedes" class="filter">
+            <input type="checkbox" id="suzuki" class="filter">
+            <input type="checkbox" id="toyota" class="filter">
+            <input type="checkbox" id="vw" class="filter">
+
+            <input type="checkbox" id="white" class="filter">
+            <input type="checkbox" id="silver" class="filter">
+            <input type="checkbox" id="beige" class="filter">
+            <input type="checkbox" id="gold" class="filter">
+            <input type="checkbox" id="yellow" class="filter">
+            <input type="checkbox" id="orange" class="filter">
+            <input type="checkbox" id="red" class="filter">
+            <input type="checkbox" id="blue" class="filter">
+            <input type="checkbox" id="purple" class="filter">
+            <input type="checkbox" id="lime" class="filter">
+            <input type="checkbox" id="green" class="filter">
+            <input type="checkbox" id="bronze" class="filter">
+            <input type="checkbox" id="grey" class="filter">
+            <input type="checkbox" id="black" class="filter">
+
+            <aside>
+
+                <!-- Filters -->
+                <input type="checkbox" id="filters">
+                <label for="filters">
+                    <h2>Filters: </h2>
+                    <i class="fa-solid fa-chevron-down" title="Show More"></i>
+                    <i class="fa-solid fa-chevron-up" title="Show Less"></i>
+                </label>
+                <br>
+
+                <!-- Search by Type -->
+                <input type="checkbox" id="filters--type">
+                <label for="filters--type" class="none">
+                    <h3>Search by Type: </h3>
+                    <i class="fa-solid fa-chevron-down" title="Show More"></i>
+                    <i class="fa-solid fa-chevron-up" title="Show Less"></i>
+                </label>
+                <div id="types" class="none category">
+                    <label for="hatchback">Hatchback</label>
+                    <label for="sedan">Sedan</label>
+                    <label for="suv">SUV</label>
+                    <label for="sav">SAV</label>
+                    <label for="pickup-truck">Pickup Truck</label>
+                    <label for="coupe">Coupe</label>
+                </div>
+                <br>
+
+                <!-- Search by Brand -->
+                <input type="checkbox" id="filters--brand">
+                <label for="filters--brand" class="none">
+                    <h3>Search by Brand: </h3>
+                    <i class="fa-solid fa-chevron-down" title="Show More"></i>
+                    <i class="fa-solid fa-chevron-up" title="Show Less"></i>
+                </label>
+                <div id="brands" class="none category">
+                    <label for="audi">
+                        <img src="images/audi.png" alt="Audi" title="Audi"
+                            height="100">
+                    </label>
+                    <label for="bmw">
+                        <img src="images/bmw.png" alt="BMW" title="BMW"
+                            height="100">
+                    </label>
+                    <label for="ford">
+                        <img src="images/ford.png" alt="Ford" title="Ford"
+                            height="100">
+                    </label>
+                    <label for="hyundai">
+                        <img src="images/hyundai.png" alt="Hyundai"
+                            title="Hyundai" height="100">
+                    </label>
+                    <label for="mercedes">
+                        <img src="images/mercedes.png" alt="Mercedes"
+                            title="Mercedes" height="100">
+                    </label>
+                    <label for="suzuki">
+                        <img src="images/suzuki.png" alt="Suzuki"
+                            title="Suzuki" height="100">
+                    </label>
+                    <label for="toyota">
+                        <img src="images/toyota.png" alt="Toyota"
+                            title="Toyota" height="100">
+                    </label>
+                    <label for="vw">
+                        <img src="images/vw.png" alt="Volkswagen"
+                            title="Volkswagen" height="100">
+                    </label>
+                </div>
+                <br>
+
+                <!-- Search by Color -->
+                <input type="checkbox" id="filters--color">
+                <label for="filters--color" class="none">
+                    <h3>Search by Color: </h3>
+                    <i class="fa-solid fa-chevron-down"
+                        title="Show More"></i>
+                    <i class="fa-solid fa-chevron-up" title="Show Less"></i>
+                </label>
+                <div id="colors" class="none category">
+                    <label for="white" title="White"></label>
+                    <label for="silver" title="Silver"></label>
+                    <label for="beige" title="Beige"></label>
+                    <label for="gold" title="Gold"></label>
+                    <label for="yellow" title="Yellow"></label>
+                    <label for="orange" title="Orange"></label>
+                    <label for="red" title="Red"></label>
+                    <label for="blue" title="Blue"></label>
+                    <label for="purple" title="Purple"></label>
+                    <label for="lime" title="Lime"></label>
+                    <label for="green" title="Green"></label>
+                    <label for="bronze" title="Bronze"></label>
+                    <label for="grey" title="Grey"></label>
+                    <label for="black" title="Black"></label>
+                </div>
+            </aside>
+
+            <!-- Vehicles Content -->
+            <section id="vehicles_content">
+                <a href="audi.html" title="Explore"
+                    class="vehicle_container suv audi black blue gold grey red silver white">
+                    <img
+                        src="images/vehicles/audi/gold1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>Audi SQ8 4.0 TFSI Quattro</h2>
+                    <p>R1 800 000</p>
+                    <p>"Drive the Audi SQ8 4.0 TFSI Quattro - Luxury Performance Redefined."</p>
+                </a>
+
+                <a href="bmw_m3.html" title="Explore"
+                    class="vehicle_container sedan bmw black blue green grey purple red white yellow">
+                    <img
+                        src="images/vehicles/bmw_m3/purple1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>BMW M3 Competition</h2>
+                    <p>R2 100 000</p>
+                    <p>"Dominating the Road: BMW M3 Competition - Where Performance Meets Perfection."</p>
+                </a>
+
+                <a href="bmw_x5.html" title="Explore"
+                    class="vehicle_container sav bmw black blue green grey red white">
+                    <img
+                        src="images/vehicles/bmw_x5/green1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>BMW X5 M Competition</h2>
+                    <p>R2 200 000</p>
+                    <p>"Dominance on Every Road - The 2024 BMW X5 M Competition, Power Redefined."</p>
+                </a>
+
+                <a href="ford_everest.html" title="Explore"
+                    class="vehicle_container suv ford black bronze grey silver white">
+                    <img
+                        src="images/vehicles/ford_everest/grey1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>Ford Everest 2.0 Bi-Turbo XLT</h2>
+                    <p>R900 000</p>
+                    <p>"Drive the 2024 Ford Everest 2.0 Bi-Turbo XLT - Built for the Bold."</p>
+                </a>
+
+                <a href="ford_mustang.html" title="Explore"
+                    class="vehicle_container coupe ford black blue grey red silver white">
+                    <img
+                        src="images/vehicles/ford_mustang/blue--vapour1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>Ford Mustang 5.0 GT Fastback 10AT</h2>
+                    <p>R1 300 000</p>
+                    <p>"Unleash the Power: Ford Mustang - Where Performance Meets Passion."
+                    </p>
+                </a>
+
+                <a href="hyundai.html" title="Explore"
+                    class="vehicle_container suv hyundai black blue green grey orange red silver white">
+                    <img
+                        src="images/vehicles/hyundai/red--engine1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>Hyundai Tucson 1.6 T-GDI Hybrid Elite</h2>
+                    <p>R690 000</p>
+                    <p>"Hyundai Tucson Hybrid - Power, Efficiency, and Style in Perfect Harmony!"</p>
+                </a>
+
+                <a href="mercedes.html" title="Explore"
+                    class="vehicle_container sedan mercedes black blue grey silver white">
+                    <img
+                        src="images/vehicles/mercedes/silver1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>Mercedes-Benz A200 Sedan FL (V177)</h2>
+                    <p>R799 000</p>
+                    <p>"Elegance Meets Performance: Drive the Future with the Mercedes-Benz A200 Sedan."</p>
+                </a>
+
+                <a href="suzuki.html" title="Explore"
+                    class="vehicle_container suv suzuki beige black blue green grey lime white">
+                    <img
+                        src="images/vehicles/suzuki/green1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>Suzuki Jimny 1.5 GLX MT</h2>
+                    <p>R399 900</p>
+                    <p>"Suzuki Jimny: Conquer Any Adventure, Where Every
+                        Journey Feels Like Finding Your Purpose."</p>
+                </a>
+
+                <a href="toyota.html" title="Explore"
+                    class="vehicle_container pickup-truck toyota red black silver blue white grey orange bronze white">
+                    <img
+                        src="images/vehicles/toyota/inferno1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>Toyota Hilux Double Cab</h2>
+                    <p>R921 800</p>
+                    <p>"Toyota Hilux Double Cab: Built for Adventure, Ready for Anything!"</p>
+                </a>
+
+                <a href="vw.html" title="Explore"
+                    class="vehicle_container hatchback vw black blue grey red white">
+                    <img
+                        src="images/vehicles/vw/blue1.png"
+                        alt="Vehicle Image" width="300">
+                    <h2>Volkswagen Polo GTI</h2>
+                    <p>R450 000</p>
+                    <p>"The Volkswagen Polo GTI: Power, Precision, and Pure Driving Thrills!"</p>
+                </a>
+            </section>
+
+            <!-- Back to Top -->
+            <section class="top">
+                <a href="#" title="Back to Top">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </a>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Auto4Sale. | All Rights Reserved.</p>
+            <a href="terms-and-conditions.html">Terms and Conditions</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- Character Encoding (Ensure proper text rendering) -->
+
+        <!-- Favicon (Ensure both formats for maximum compatibility and visual quality) -->
+        <!-- Favicon in .ico format for older browsers like Internet Explorer -->
+        <link rel="icon" href="images/favicon--ico.ico" type="image/x-icon">
+
+        <!-- Favicon in .png format for modern browsers with transparency support -->
+        <link rel="icon" href="images/favicon--png.png" type="image/png">
+
+        <!-- Viewport Meta Tag (For responsive design on mobile devices) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title Tag (Displayed in the browser tab and used for SEO) -->
+        <title>Suzuki | Auto4Sale</title>
+
+        <!-- SEO Meta Tags -->
+        <meta name="description"
+            content="Discover the Suzuki Jimny 1.5 GLX MT, a compact and rugged 4x4 adventure SUV designed for off-road enthusiasts and city driving. Available now at Auto4Sale.">
+        <meta name="keywords"
+            content="Suzuki Jimny, Suzuki Jimny 1.5 GLX, 4x4 SUV, adventure SUV, Suzuki for sale, compact SUV, off-road vehicle, Auto4Sale">
+        <meta name="author" content="William Daniel Maistry">
+
+        <!-- Robots Meta Tag (Tells search engines to index and follow links) -->
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph Meta Tags (For social media sharing like Facebook, LinkedIn, etc.) -->
+        <meta property="og:title"
+            content="Suzuki Jimny 1.5 GLX MT - Compact 4x4 Adventure SUV | Auto4Sale">
+        <meta property="og:type" content="website">
+        <!-- TODO: Add actual URL of the Suzuki Jimny vehicle page -->
+        <meta property="og:url"
+            content="https://www.auto4sale.com/vehicles/suzuki-jimny-1-5-glx-mt">
+        <!-- TODO: Add actual image URL for the Open Graph image -->
+        <meta property="og:image"
+            content="images/suzuki-jimny-1-5-glx-meta.jpg">
+        <meta property="og:description"
+            content="Discover the Suzuki Jimny 1.5 GLX MT, a compact and rugged 4x4 adventure SUV designed for off-road enthusiasts and city driving. Available now at Auto4Sale.">
+        <meta property="og:site_name" content="Auto4Sale">
+        <meta property="og:locale" content="en_ZA">
+
+        <!-- Twitter Meta Tags (For Twitter card display) -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title"
+            content="Suzuki Jimny 1.5 GLX MT - Compact 4x4 Adventure SUV | Auto4Sale">
+        <meta name="twitter:description"
+            content="Discover the Suzuki Jimny 1.5 GLX MT, a compact and rugged 4x4 adventure SUV designed for off-road enthusiasts and city driving. Available now at Auto4Sale.">
+        <!-- TODO: Add actual image URL for the Twitter image -->
+        <meta name="twitter:image"
+            content="images/suzuki-jimny-1-5-glx-meta.jpg">
+
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome (For adding icons) -->
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <a href="vehicles.html" title="Back" class="back">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <section class="header_logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Logo" title="Home"
+                        width="100">
+                </a>
+                <h1>Auto4Sale</h1>
+            </section>
+            <section class="header_tabs">
+                <a href="vehicles.html">Vehicles</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </section>
+        </header>
+
+        <!-- Main content -->
+        <main>
+
+            <!-- Vehicle Hero -->
+            <div class="vehicle-hero">
+                <img class="hero_img"
+                    src="images/vehicles/suzuki/suzuki_hero.jpg"
+                    alt="Display Picture" width="600" height="400">
+                <p
+                    class="center">"Born to explore. Discover true freedom behind the wheel of the Suzuki Jimny — where every journey feels like finding your purpose. With a legacy spanning three generations, the Jimny remains a small yet mighty 4WD vehicle, daring to explore."</p>
+            </div>
+
+            <!-- Vehicle Display -->
+            <section class="vehicle-display">
+
+                <!-- Vehicle Images -->
+                <div class="vehicle-images">
+
+                    <input type="radio" id="white-metallic" name="color"
+                        checked
+                        aria-checked="true">
+                    <div class="vehicle__single none center">
+                        <input type="radio" id="white1"
+                            name="navigation--white"
+                            class="vehicle-img1"
+                            checked aria-checked="true">
+                        <input type="radio" id="white2"
+                            name="navigation--white"
+                            class="vehicle-img2">
+
+                        <p><b>Colour: </b>White Metallic</p>
+
+                        <div class="pagination-indicators">
+                            <label for="white1"></label>
+                            <label for="white2"></label>
+                        </div>
+                        <div class="controls-previous">
+                            <label for="white2"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="white1" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                        </div>
+                        <div class="controls-next">
+                            <label for="white2"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="white1" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                        </div>
+
+                        <div class="vehicle__single--img-container">
+                            <img
+                                src="images/vehicles/suzuki/white1.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/white2.png"
+                                alt="Vehicle Image" width="500">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="beige-metallic"
+                        name="color">
+                    <div class="vehicle__single none center">
+                        <input type="radio" id="beige1"
+                            name="navigation--beige"
+                            class="vehicle-img1"
+                            checked aria-checked="true">
+                        <input type="radio" id="beige2"
+                            name="navigation--beige"
+                            class="vehicle-img2">
+                        <input type="radio" id="beige3"
+                            name="navigation--beige"
+                            class="vehicle-img3">
+                        <input type="radio" id="beige4"
+                            name="navigation--beige"
+                            class="vehicle-img4">
+
+                        <p><b>Colour: </b>Beige Metallic</p>
+
+                        <div class="pagination-indicators">
+                            <label for="beige1"></label>
+                            <label for="beige2"></label>
+                            <label for="beige3"></label>
+                            <label for="beige4"></label>
+                        </div>
+                        <div class="controls-previous">
+                            <label for="beige4"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="beige1" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="beige2" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="beige3" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                        </div>
+                        <div class="controls-next">
+                            <label for="beige2"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="beige3" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="beige4" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="beige1" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                        </div>
+
+                        <div class="vehicle__single--img-container">
+                            <img
+                                src="images/vehicles/suzuki/beige1.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/beige2.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/beige3.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/beige4.png"
+                                alt="Vehicle Image" width="500">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="blue-metallic"
+                        name="color">
+                    <div class="vehicle__single none center">
+                        <input type="radio" id="blue1"
+                            name="navigation--blue"
+                            class="vehicle-img1"
+                            checked aria-checked="true">
+                        <input type="radio" id="blue2"
+                            name="navigation--blue"
+                            class="vehicle-img2">
+                        <input type="radio" id="blue3"
+                            name="navigation--blue"
+                            class="vehicle-img3">
+                        <input type="radio" id="blue4"
+                            name="navigation--blue"
+                            class="vehicle-img4">
+                        <input type="radio" id="blue5"
+                            name="navigation--blue"
+                            class="vehicle-img5">
+
+                        <p><b>Colour: </b>Blue Metallic</p>
+
+                        <div class="pagination-indicators">
+                            <label for="blue1"></label>
+                            <label for="blue2"></label>
+                            <label for="blue3"></label>
+                            <label for="blue4"></label>
+                            <label for="blue5"></label>
+                        </div>
+                        <div class="controls-previous">
+                            <label for="blue5"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="blue1" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="blue2" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="blue3" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="blue4" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                        </div>
+                        <div class="controls-next">
+                            <label for="blue2"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="blue3" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="blue4" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="blue5" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="blue1" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                        </div>
+
+                        <div class="vehicle__single--img-container">
+                            <img
+                                src="images/vehicles/suzuki/blue1.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/blue2.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/blue3.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/blue4.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/blue5.png"
+                                alt="Vehicle Image" width="500">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="lime-metallic"
+                        name="color">
+                    <div class="vehicle__single none center">
+                        <input type="radio" id="lime1"
+                            name="navigation--lime"
+                            class="vehicle-img1"
+                            checked aria-checked="true">
+                        <input type="radio" id="lime2"
+                            name="navigation--lime"
+                            class="vehicle-img2">
+                        <input type="radio" id="lime3"
+                            name="navigation--lime"
+                            class="vehicle-img3">
+
+                        <p><b>Colour: </b>Lime Metallic</p>
+
+                        <div class="pagination-indicators">
+                            <label for="lime1"></label>
+                            <label for="lime2"></label>
+                            <label for="lime3"></label>
+                        </div>
+                        <div class="controls-previous">
+                            <label for="lime3"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="lime1" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="lime2" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                        </div>
+                        <div class="controls-next">
+                            <label for="lime2"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="lime3" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="lime1" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                        </div>
+
+                        <div class="vehicle__single--img-container">
+                            <img
+                                src="images/vehicles/suzuki/lime1.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/lime2.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/lime3.png"
+                                alt="Vehicle Image" width="500">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="green-metallic"
+                        name="color">
+                    <div class="vehicle__single none center">
+                        <input type="radio" id="green1"
+                            name="navigation--green"
+                            class="vehicle-img1"
+                            checked aria-checked="true">
+                        <input type="radio" id="green2"
+                            name="navigation--green"
+                            class="vehicle-img2">
+                        <input type="radio" id="green3"
+                            name="navigation--green"
+                            class="vehicle-img3">
+
+                        <p><b>Colour: </b>Green Metallic</p>
+
+                        <div class="pagination-indicators">
+                            <label for="green1"></label>
+                            <label for="green2"></label>
+                            <label for="green3"></label>
+                        </div>
+                        <div class="controls-previous">
+                            <label for="green3"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="green1" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="green2" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                        </div>
+                        <div class="controls-next">
+                            <label for="green2"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="green3" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="green1" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                        </div>
+
+                        <div class="vehicle__single--img-container">
+                            <img
+                                src="images/vehicles/suzuki/green1.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/green2.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/green3.png"
+                                alt="Vehicle Image" width="500">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="grey-metallic"
+                        name="color">
+                    <div class="vehicle__single none center">
+                        <input type="radio" id="grey1"
+                            name="navigation--grey"
+                            class="vehicle-img1"
+                            checked aria-checked="true">
+                        <input type="radio" id="grey2"
+                            name="navigation--grey"
+                            class="vehicle-img2">
+                        <input type="radio" id="grey3"
+                            name="navigation--grey"
+                            class="vehicle-img3">
+                        <input type="radio" id="grey4"
+                            name="navigation--grey"
+                            class="vehicle-img4">
+
+                        <p><b>Colour: </b>Grey Metallic</p>
+
+                        <div class="pagination-indicators">
+                            <label for="grey1"></label>
+                            <label for="grey2"></label>
+                            <label for="grey3"></label>
+                            <label for="grey3"></label>
+                        </div>
+                        <div class="controls-previous">
+                            <label for="grey4"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="grey1" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="grey2" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="grey3" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                        </div>
+                        <div class="controls-next">
+                            <label for="grey2"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="grey3" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="grey4" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="grey1" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                        </div>
+
+                        <div class="vehicle__single--img-container">
+                            <img
+                                src="images/vehicles/suzuki/grey1.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/grey2.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/grey3.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/grey4.png"
+                                alt="Vehicle Image" width="500">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="black-metallic"
+                        name="color">
+                    <div class="vehicle__single none center">
+                        <input type="radio" id="black1"
+                            name="navigation--black"
+                            class="vehicle-img1"
+                            checked aria-checked="true">
+                        <input type="radio" id="black2"
+                            name="navigation--black"
+                            class="vehicle-img2">
+                        <input type="radio" id="black3"
+                            name="navigation--black"
+                            class="vehicle-img3">
+                        <input type="radio" id="black4"
+                            name="navigation--black"
+                            class="vehicle-img4">
+
+                        <p><b>Colour: </b>Black Metallic</p>
+
+                        <div class="pagination-indicators">
+                            <label for="black1"></label>
+                            <label for="black2"></label>
+                            <label for="black3"></label>
+                            <label for="black3"></label>
+                        </div>
+                        <div class="controls-previous">
+                            <label for="black4"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="black1" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="black2" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                            <label for="black3" class="none"><i
+                                    class="fa-solid fa-chevron-left"
+                                    title="Previous"></i></label>
+                        </div>
+                        <div class="controls-next">
+                            <label for="black2"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="black3" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="black4" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                            <label for="black1" class="none"><i
+                                    class="fa-solid fa-chevron-right"
+                                    title="next"></i></label>
+                        </div>
+
+                        <div class="vehicle__single--img-container">
+                            <img
+                                src="images/vehicles/suzuki/black1.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/black2.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/black3.png"
+                                alt="Vehicle Image" width="500">
+                            <img
+                                src="images/vehicles/suzuki/black4.png"
+                                alt="Vehicle Image" width="500">
+                        </div>
+                    </div>
+
+                    <!-- Vehicle Details -->
+                    <div class="vehicle-details">
+                        <h1 class="center">Suzuki Jimny 1.5 GLX MT</h1>
+                        <div class="vehicle-colors__container">
+                            <label for="white-metallic"
+                                class="vehicle-color"
+                                id="col__white-metallic"
+                                title="White Metallic"></label>
+                            <label for="beige-metallic"
+                                class="vehicle-color"
+                                id="col__beige-metallic"
+                                title="Beige Metallic"></label>
+                            <label for="blue-metallic"
+                                class="vehicle-color"
+                                id="col__blue-metallic"
+                                title="Blue Metallic"></label>
+                            <label for="lime-metallic"
+                                class="vehicle-color"
+                                id="col__lime-metallic"
+                                title="Lime Metallic"></label>
+                            <label for="green-metallic"
+                                class="vehicle-color"
+                                id="col__green-metallic"
+                                title="Green Metallic"></label>
+                            <label for="grey-metallic"
+                                class="vehicle-color"
+                                id="col__grey-metallic"
+                                title="Grey Metallic"></label>
+                            <label for="black-metallic"
+                                class="vehicle-color"
+                                id="col__black-metallic"
+                                title="Black Metallic"></label>
+                        </div>
+                        <a href="#buy">
+                            <button type="button">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Vehicle Description -->
+            <div class="vehicle-description">
+                <p
+                    class="center">Experience unmatched performance with key
+                    capabilities that define serious off-roading. With its rigid
+                    ladder frame chassis, 3-link rigid axle suspension, and
+                    angled body with impressive ground clearance, the Jimny is a
+                    conqueror. It's equipped with 4WD and low-range transfer
+                    gear, powered by a purposeful 1.5ℓ engine, and enhanced with
+                    traction and hill descent control - engineered to adventure
+                    beyond limits.</p>
+                <img class="interior_img"
+                    src="images/vehicles/suzuki/suzuki_interior.jpg"
+                    alt="Vehicle Interior" width="600" height="400">
+            </div>
+
+            <!-- Vehicle Information -->
+            <section class="vehicle-info">
+
+                <!-- More Info -->
+                <aside class="more-info">
+                    <img src="images/vehicles/suzuki/lime1.png"
+                        alt="Vehicle Image" width="400" height="200">
+                    <a
+                        href="https://www.suzukiauto.co.za/cars/jimny/specs#features"
+                        target="_blank" rel="noopener noreferrer">
+                        <button type="button">More Info <i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </aside>
+
+                <!-- Vehicle Info Content -->
+                <div class="vehicle__info-content">
+                    <h2 class="center">Information</h2>
+
+                    <!-- Vehicle Overview -->
+                    <h3>Vehicle Overview</h3>
+                    <p><b>Model Name: </b>Suzuki Jimny 1.5 GLX MT</p>
+                    <p><b>Year: </b>2024</p>
+                    <p><b>Brand: </b>Suzuki</p>
+                    <p><b>Type: </b>SUV</p>
+                    <p><b>Price: </b>R399 900</p>
+
+                    <!-- Key Features -->
+                    <h3>Key Features and Specifications</h3>
+                    <p><b>Engine: </b>1.5L 4-cylinder petrol engine (producing
+                        around 75kW of power and 130Nm of torque)</p>
+                    <p><b>Transmission: </b>5-speed manual</p>
+                    <p><b>Fuel Efficiency: </b>6.9 - 7.1 L / 100 km
+                        (combined)</p>
+                    <p><b>Drive Type: </b>All-wheel drive (AWD) with low-range
+                        transfer case for off-road capabilities.</p>
+                    <p><b>Cargo Space: </b>Compact boot space with options to
+                        fold rear seats down for additional cargo</p>
+
+                    <!-- Safety Features -->
+                    <h3>Safety Features</h3>
+                    <p><b>Airbags: </b>Dual front airbags with side and curtain
+                        airbags in higher trims.</p>
+                    <p><b>ABS: </b>Anti-lock Braking System for enhanced braking
+                        control.</p>
+                    <p><b>EBD: </b>Electronic Brakeforce Distribution for
+                        improved braking performance.</p>
+                    <p><b>ESP: </b>Electronic Stability Program for vehicle
+                        control.</p>
+                    <p><b>Collision Provision: </b>Active Brake Assist and
+                        Forward Collision Warning for added safety.</p>
+                    <p><b>Hill Hold Control: </b>Helps prevent rolling back on
+                        inclines.</p>
+
+                    <!-- Interior Features -->
+                    <h3>Interior Features</h3>
+                    <p><b>Infotainment System: </b>7-inch touchscreen with Apple
+                        CarPlay, Android Auto, and Bluetooth connectivity.</p>
+                    <p><b>Climate Control: </b>Manual air conditioning for a
+                        comfortable cabin environment.</p>
+                    <p><b>Seating: </b>4 seats - Comfortable fabric
+                        upholstery.</p>
+                    <p><b>Storage: </b>Practical interior storage compartments,
+                        cup holders, and a rear parcel shelf.</p>
+
+                    <!-- Exterior Features -->
+                    <h3>Exterior Features</h3>
+                    <p><b>Lighting: </b>LED headlights and fog lamps for
+                        improved visibility in various driving conditions.</p>
+                    <p><b>Wheels: </b>15-inch alloy wheels with an off-road tire
+                        design.</p>
+                    <p><b>Tow Hooks: </b>Front and rear tow hooks for off-road
+                        recovery.</p>
+                    <p><b>Spare Wheel: </b>Mounted on the rear for convenience
+                        and off-road functionality.</p>
+                </div>
+            </section>
+
+            <!-- Buy Vehicle -->
+            <section class="buy-vehicle">
+                <div id="buy">
+                    <h2 class="center">Take the Next Step - Buy Your
+                        Suzuki Jimny Today!</h2>
+
+                    <!-- Vehicle form / color select -->
+                    <form action="buy.html" method="get">
+                        <div class="color-select">
+
+                            <!-- Hidden inputs for colors -->
+                            <input type="radio" id="select--1"
+                                name="select-color" required
+                                aria-required="true">
+                            <input type="radio" id="select--2"
+                                name="select-color" required
+                                aria-required="true">
+                            <input type="radio" id="select--3"
+                                name="select-color" required
+                                aria-required="true">
+                            <input type="radio" id="select--4"
+                                name="select-color" required
+                                aria-required="true">
+                            <input type="radio" id="select--5"
+                                name="select-color" required
+                                aria-required="true">
+                            <input type="radio" id="select--6"
+                                name="select-color" required
+                                aria-required="true">
+                            <input type="radio" id="select--7"
+                                name="select-color" required
+                                aria-required="true">
+
+                            <!-- Color Selecting -->
+                            <div class="color-selecting ">
+                                <input type="checkbox"
+                                    id="selecting-color">
+                                <label for="selecting-color">Please
+                                    Select
+                                    Vehicle Colour
+                                    <i
+                                        class="fa-solid fa-chevron-down"></i>
+                                    <i
+                                        class="fa-solid fa-chevron-up"></i>
+                                </label>
+                                <div class="color-options none">
+                                    <label for="select--1">White
+                                        Metallic</label>
+                                    <label for="select--2">Beige
+                                        Metallic</label>
+                                    <label for="select--3">Blue Metallic</label>
+                                    <label for="select--4">Lime Metallic</label>
+                                    <label for="select--5">Green
+                                        Metallic</label>
+                                    <label for="select--6">Grey Metallic</label>
+                                    <label for="select--7">Black
+                                        Metallic</label>
+                                </div>
+                            </div>
+
+                            <!-- Vehicle Images -->
+                            <img
+                                src="images/vehicles/suzuki/white1.png"
+                                alt="Vehicle Image" class="none"
+                                width="600"
+                                height="400">
+                            <img
+                                src="images/vehicles/suzuki/beige1.png"
+                                alt="Vehicle Image" class="none"
+                                width="600"
+                                height="400">
+                            <img
+                                src="images/vehicles/suzuki/blue1.png"
+                                alt="Vehicle Image" class="none"
+                                width="600"
+                                height="400">
+                            <img
+                                src="images/vehicles/suzuki/lime1.png"
+                                alt="Vehicle Image" class="none"
+                                width="600"
+                                height="400">
+                            <img
+                                src="images/vehicles/suzuki/green1.png"
+                                alt="Vehicle Image" class="none"
+                                width="600"
+                                height="400">
+                            <img
+                                src="images/vehicles/suzuki/grey1.png"
+                                alt="Vehicle Image" class="none"
+                                width="600"
+                                height="400">
+                            <img
+                                src="images/vehicles/suzuki/black1.png"
+                                alt="Vehicle Image" class="none"
+                                width="600"
+                                height="400">
+                        </div>
+
+                        <button type="submit">Continue</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Back top top -->
+            <section class="top">
+                <a href="#" title="Back to Top">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </a>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Auto4Sale. | All Rights Reserved.</p>
+            <a href="terms-and-conditions.html">Terms and Conditions</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </footer>
+
+    </body>
+</html>

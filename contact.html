@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- Character Encoding (Ensure proper text rendering) -->
+
+        <!-- Favicon (Ensure both formats for maximum compatibility and visual quality) -->
+        <!-- Favicon in .ico format for older browsers like Internet Explorer -->
+        <link rel="icon" href="images/favicon--ico.ico" type="image/x-icon">
+
+        <!-- Favicon in .png format for modern browsers with transparency support -->
+        <link rel="icon" href="images/favicon--png.png" type="image/png">
+
+        <!-- Viewport Meta Tag (For responsive design on mobile devices) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title Tag (Displayed in the browser tab and used for SEO) -->
+        <title>Contact Us | Auto4Sale</title>
+
+        <!-- SEO Meta Tags -->
+        <meta name="description"
+            content="Have questions or need support? Get in touch with the Auto4Sale team. We're here to assist you with all your car-buying inquiries. Contact us now!">
+        <meta name="keywords"
+            content="Contact Auto4Sale, contact us, customer support, car buying questions, car dealership inquiries, Auto4Sale support">
+        <meta name="author" content="William Daniel Maistry">
+
+        <!-- Robots Meta Tag (Tells search engines to index and follow links) -->
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph Meta Tags (For social media sharing like Facebook, LinkedIn, etc.) -->
+        <meta property="og:title"
+            content="Contact Us - Auto4Sale | Get In Touch With Us">
+        <meta property="og:type" content="website">
+        <!-- TODO: Add actual URL of the Contact Us page -->
+        <meta property="og:url" content="https://www.auto4sale.com/contact">
+        <!-- TODO: Add actual image URL for the Open Graph image -->
+        <meta property="og:image" content="images/auto4sale-contact-meta.jpg">
+        <meta property="og:description"
+            content="Have questions or need support? Get in touch with the Auto4Sale team. We're here to assist you with all your car-buying inquiries. Contact us now!">
+        <meta property="og:site_name" content="Auto4Sale">
+        <meta property="og:locale" content="en_ZA">
+
+        <!-- Twitter Meta Tags (For Twitter card display) -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title"
+            content="Contact Us - Auto4Sale | Get In Touch With Us">
+        <meta name="twitter:description"
+            content="Have questions or need support? Get in touch with the Auto4Sale team. We're here to assist you with all your car-buying inquiries. Contact us now!">
+        <!-- TODO: Add actual image URL for the Twitter image -->
+        <meta name="twitter:image" content="images/auto4sale-contact-meta.jpg">
+
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome (For adding icons) -->
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <a href="index.html" title="Back" class="back">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <section class="header_logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Logo" title="Home"
+                        width="100">
+                </a>
+                <h1>Auto4Sale</h1>
+            </section>
+            <section class="header_tabs">
+                <a href="vehicles.html">Vehicles</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </section>
+        </header>
+
+        <!-- Main content -->
+        <main id="contact_main">
+
+            <!-- Contact info -->
+            <div id="contact-content">
+                <h1 class="center">Contact Us</h1>
+                <p class="center">Please reach out to us at anytime! We'd love
+                    to
+                    hear from
+                    you!😊</p>
+                <h2>Contact Details:</h2>
+                <p><i class="fa-solid fa-envelope"></i>
+                    Auto4sale.@awesome.com</p>
+                <p><i class="fa-solid fa-phone"></i> 010 234 5678</p>
+                <h2>Find us on Social Media:</h2>
+                <a href="https://www.facebook.com/" class="social-media"
+                    title="Facebook"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook.png" alt="Facebook Icon"
+                        width="25">
+                    <p>Auto4Sale</p>
+                </a>
+                <a href="https://www.instagram.com/" class="social-media"
+                    title="Instagram"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/instagram.png" alt="Instagram Icon"
+                        width="25">
+                    <p>@Auto_4_Sale</p>
+                </a>
+                <a href="https://www.tiktok.com/" class="social-media"
+                    title="TikTok"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/tiktok.png" alt="TikTok Icon" width="25">
+                    <p>@Auto_4_Sale</p>
+                </a>
+                <a href="https://x.com/" class="social-media"
+                    title="Twitter"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/twitter.png" alt="Twitter Icon" width="25">
+                    <p>@Auto_4_Sale</p>
+                </a>
+
+                <!-- Contact Form -->
+                <p class="center">Want to drop a message? Please fill in the
+                    form
+                    below. We value your input.😊</p>
+                <form action="message.html">
+                    <label for="firstname" class="required">First Name:
+                    </label>
+                    <input type="text" id="firstname" placeholder="John"
+                        required
+                        aria-required="true" pattern="[A-Za-z\- ]*">
+                    <label for="additional-name">Additional Name/s: </label>
+                    <input type="text" id="additional-name" placeholder="James"
+                        pattern="[A-Za-z\- ]*">
+                    <label for="lastname" class="required">Last Name: </label>
+                    <input type="text" id="lastname" placeholder="Doe" required
+                        aria-required="true" pattern="[A-Za-z\- ]*">
+                    <label for="email" class="required">Email: </label>
+                    <input type="email" id="email"
+                        placeholder="email@address.com"
+                        required aria-required="true">
+                    <label for="phone" class="required">Phone: </label>
+                    <input type="text" id="phone" inputmode="tel"
+                        placeholder="0123456789" required aria-required="true"
+                        pattern="[0-9\- ]*" minlength="9" maxlength="15">
+                    <h3>Preferred method of contact: </h3>
+                    <input type="checkbox" id="email-option">
+                    <label for="email-option">Email</label>
+                    <br>
+                    <input type="checkbox" id="phone-option">
+                    <label for="phone-option">Phone</label>
+                    <br>
+
+                    <!-- Message type -->
+                    <select name="message-type" id="message-type"
+                        title="Select message type" required
+                        aria-required="true">
+                        <option value disabled selected>Select
+                            message
+                            type</option>
+                        <option value="Compliment">Compliment</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Suggestion">Suggestion</option>
+                        <option value="Review">Review</option>
+                        <option value="Query">Query</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br>
+                    <label for="message" class="required">Message: </label>
+
+                    <!-- Message -->
+                    <textarea name="message" id="message" required
+                        aria-required="true"
+                        placeholder="Type your message here..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- Back top top -->
+            <section class="top">
+                <a href="#" title="Back to Top">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </a>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Auto4Sale. | All Rights Reserved.</p>
+            <a href="terms-and-conditions.html">Terms and Conditions</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </footer>
+
+    </body>
+</html>
