@@ -123,31 +123,38 @@
                 <p class="center">Want to drop a message? Please fill in the
                     form
                     below. We value your input.😊</p>
-                <form action="message.html">
+                <form action="https://formsubmit.co/Savedbygrace.wdm@gmail.com"
+                    method="POST">
                     <label for="firstname" class="required">First Name:
                     </label>
-                    <input type="text" id="firstname" placeholder="John"
+                    <input type="text" id="firstname" name="first-name"
+                        placeholder="John"
                         required
                         aria-required="true" pattern="[A-Za-z\- ]*">
                     <label for="additional-name">Additional Name/s: </label>
-                    <input type="text" id="additional-name" placeholder="James"
+                    <input type="text" id="additional-name"
+                        name="additional-name"
+                        placeholder="James"
                         pattern="[A-Za-z\- ]*">
                     <label for="lastname" class="required">Last Name: </label>
-                    <input type="text" id="lastname" placeholder="Doe" required
+                    <input type="text" id="lastname" name="last-name"
+                        placeholder="Doe" required
                         aria-required="true" pattern="[A-Za-z\- ]*">
                     <label for="email" class="required">Email: </label>
-                    <input type="email" id="email"
+                    <input type="email" id="email" name="email"
                         placeholder="email@address.com"
                         required aria-required="true">
                     <label for="phone" class="required">Phone: </label>
-                    <input type="text" id="phone" inputmode="tel"
+                    <input type="text" id="phone" name="phone" inputmode="tel"
                         placeholder="0123456789" required aria-required="true"
                         pattern="[0-9\-\+ ]*" minlength="9" maxlength="15">
                     <h3>Preferred method of contact: </h3>
-                    <input type="checkbox" id="email-option">
+                    <input type="checkbox" id="email-option"
+                        name="email-preference">
                     <label for="email-option">Email</label>
                     <br>
-                    <input type="checkbox" id="phone-option">
+                    <input type="checkbox" id="phone-option"
+                        name="phone-preference">
                     <label for="phone-option">Phone</label>
                     <br>
 
@@ -172,6 +179,13 @@
                     <textarea name="message" id="message" required
                         aria-required="true"
                         placeholder="Type your message here..."></textarea>
+
+                    <!-- Hidden fields -->
+                    <input type="hidden" name="_next"
+                        value="https://william-daniel-maistry.github.io/Auto4Sale/message.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_honey">
+
                     <button type="submit">Submit</button>
                 </form>
             </div>
